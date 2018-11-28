@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2018.  Diego Urrutia Astorga <durrutia@ucn.cl>
+  ~ This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.
+  ~ http://creativecommons.org/licenses/by-nc/4.0/
+  ~
+  -->
+
+<resources>
+
+    <color name="colorSky">#7D9BC1</color>
+    <color name="colorSkyDark">#425563</color>
+    <color name="colorSkyLight">#DBE2E9</color>
+
+    <color name="colorEarth">#B86125</color>
+    <color name="colorEarthDark">#623412</color>
+    <color name="colorEarthLight">#FFAA4D</color>
+
+    <color name="colorPrimary">@color/colorSky</color>
+    <color name="colorPrimaryDark">@color/colorSkyDark</color>
+    <color name="textColorPrimary">@android:color/white</color>
+    <color name="colorAccent">@color/colorEarth</color>
+    <color name="textColor">@android:color/black</color>
+    <color name="windowBackground">@android:color/white</color>
+    <color name="navigationBarColor">@color/colorSkyDark</color>
+
+</resources>
