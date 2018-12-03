@@ -1,5 +1,5 @@
 <!--
-  ~ Copyright (c) 2018.  Diego Urrutia Astorga <durrutia@ucn.cl>
+  ~ Copyright (c) 2018.  Fernando Caimanque <fernando.caimanque@alumnos.ucn.cl>
   ~ This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.
   ~ http://creativecommons.org/licenses/by-nc/4.0/
   ~
@@ -12,7 +12,7 @@
         <item name="android:colorPrimary">@color/colorPrimaryDark</item>
         <item name="android:colorPrimaryDark">@color/colorEarthDark</item>
         <item name="android:colorAccent">@color/colorAccent</item>
-        <item name="android:navigationBarColor">@color/colorEarthDark</item>
+        <item name="android:navigationBarColor">@color/colorSkyDark</item>
         <item name="android:fontFamily">@font/myriadpro</item>
     </style>
 

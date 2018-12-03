@@ -4,6 +4,7 @@ import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 import java.util.ArrayList;
+import java.util.Collections;
 
 import lombok.Builder;
 import lombok.Getter;
@@ -42,6 +43,7 @@ public final class Persona {
         for (int i = 0; i < array.length(); i++) {
             try {
                 personas.add(new Persona(array.getJSONObject(i)));
+                Collections.sort(personas, (p1, p2) -> p1.getNombre().compareToIgnoreCase(p2.getNombre()));
             } catch (JSONException e) {
                 e.printStackTrace();
             }
